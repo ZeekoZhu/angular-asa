@@ -1,3 +1,9 @@
-.blogs {
+.blogs-list {
+    width: 100%;
+}
 
+.blogs-item {
+    width: 800px;
+    height: 200px;
+    background-color: white;
 }
