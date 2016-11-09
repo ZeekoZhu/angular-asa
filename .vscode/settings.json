@@ -15,5 +15,7 @@
     "htmlhint.options": {
         "doctype-first": false,
         "spec-char-escape": false
-    }
+    },
+    "addNg2.addTestFile": false,
+    "addNg2.stylesheet": "css"
 }

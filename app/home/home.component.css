@@ -18,7 +18,10 @@
     margin: 0 auto;
 }
 
-#home-nav div {
+#home-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
     border: black solid 1px;
     background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.5s;
@@ -26,7 +29,7 @@
     padding: 15px 60px;
 }
 
-#home-nav div:hover {
+#home-nav a:hover {
     background-color: rgba(255, 255, 255, 0.6);
     border: white solid 1px;
 }

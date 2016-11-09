@@ -1,9 +1,33 @@
 .blogs-list {
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .blogs-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
     width: 800px;
     height: 200px;
-    background-color: white;
+    background-color: black;
+    border: white solid 1pt;
+}
+
+.blogs-avater {
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+    margin: 40px;
+    border-radius: 60px;
+}
+
+.blogs-detail {
+    flex: 1 0 auto;
+    background-color: aquamarine;
+    height: 160px;
+    margin-right: 20px;
 }
