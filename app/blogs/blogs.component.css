@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     width: 800px;
-    height: 200px;
+    height: 180px;
     background-color: black;
     border: white solid 1pt;
 }
@@ -28,6 +28,6 @@
 .blogs-detail {
     flex: 1 0 auto;
     background-color: aquamarine;
-    height: 160px;
-    margin-right: 20px;
+    margin: 20px;
+    height: 140px;
 }
